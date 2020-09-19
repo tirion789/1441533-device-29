@@ -5,6 +5,9 @@
     --basic-grey : #464646;
     --basic-half-grey : #7E7E7E;
     --basic-grey-light : #E5E5E5;
+    --basic-white-grey: rgba(255, 255, 255, 0.3);
+    --basic-white-dim: rgba(255, 255, 255, 0.7);
+    --basic-white-min:rgba(255, 255, 255, 0.6);
 
     --special-yellow : #F7E296;
     --special-green : #91C92F;
@@ -20,7 +23,7 @@
     url("../fonts/gilroyextrabold.woff") format("woff");
   }
 
-  @font-face {
+@font-face {
       font-weight: 300;
       font-family: "Gilroy-light";
       font-style: normal;
@@ -75,14 +78,28 @@ a {
     color: var(--basic-black);
 }
 
+.wrapper :hover {
+    opacity: 0.6;
+}
+.wrapper :active {
+    opacity: 0.3
+}
+
 .main-header-menu {
     font-size: 18px;
     line-height: 22px;
     list-style: none;
     font-weight: 800;
-    font-family: "Gilroy"
+    font-family: "Gilroy";
 
 
+}
+
+.main-header-menu :hover {
+    opacity: 0.6;
+}
+.main-header-menu :active {
+    opacity: 0.3;
 }
 
 .main-header-menu a {
@@ -139,14 +156,41 @@ a {
     
 }
 
-.main-slider-container a {
+.main-slider-container a:hover{
     color: var(--basick-black);
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
     list-style: none;
-    font-family: "Gilroy"
+    font-family: "Gilroy";
+    padding: 9px 43px 9px 43px;
+    background-color:  var(--special-yellow-dark);
 
+}
+
+.main-slider-container a{
+    color: var(--basick-black);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    list-style: none;
+    font-family: "Gilroy";
+    padding: 7px 42px 7px 42px;
+    position: relative;
+}
+.main-slider-container a::before{
+    content: '';
+    position: absolute;
+    width: 220px;
+    height: 8px;
+    left: 511px;
+    top: 359px;
+    background-color: var(--special-yellow-dark);
+
+}
+
+.main-slider-container a:active{
+    opacity: 0.3;
 }
 
 .product-list {
@@ -155,7 +199,12 @@ a {
     line-height: 22px; 
     list-style: none;
     font-family: "Gilroy";
+    
 
+}
+
+.product-list :active{
+    opacity: 0.3;
 }
 
 .product a {
@@ -176,15 +225,23 @@ a {
    
 }
 
+.services-nav a:hover{
+    padding: 9px 25px 9px 24px;
+    background-color:  var(--special-yellow-dark);
+
+}
+
+.services-nav a:active{
+    padding: 9px 145px 9px 24px; ;
+    background-color: var(--basic-black);
+    color: var(--special-yellow)
+}
+
 
 .services-nav a {
     color: var(--basick-black);
 }
 
-.services-nav a :hover
-.services-nav a :focus {
-    color: var(--special-yellow);
-}
 
 
 .services-item-title {
@@ -271,7 +328,7 @@ a {
 }
 
 .main-footer-wrapper a {
-     color: rgba(255, 255, 255, 0.7);
+     color: var(--basic-white-dim);
      font-weight: 300;
      font-size: 15px;
      line-height: 20px;
@@ -282,6 +339,13 @@ a {
 
 }
 
+.wrapper-bottom a:hover{
+    color: var(--basic-white);
+}
+
+.wrapper-bottom a:active{
+    color: var(--basic-white-grey)
+}
 
 
 .footer-social a {
@@ -297,6 +361,14 @@ a {
 .footer-contacts-services a {
     color: var(--basic-white);
     font-family: "Gilroy";
+}
+
+.footer-contacts-services a:hover{
+    color: var(--basic-white-min);
+}
+
+.footer-contacts-services a:active{
+    color: var(--basic-white-grey)
 }
 
 .footer-contacts-telephone  {
