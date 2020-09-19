@@ -197,7 +197,7 @@ ul {
     letter-spacing: 0.05em;
 }
 
-.product-item li:active {
+.product-list a:active {
     opacity: 0.3;
 }
 
@@ -337,6 +337,7 @@ ul {
 .wrapper-bottom a {
     color: var(--basic-white-low)
 }
+
 .wrapper-bottom a:active {
     color: var(--basic-white);
     opacity: 0.3;
@@ -383,4 +384,5 @@ ul {
     line-height: 20px;
     color: var(--basic-white);
 }
+
 
