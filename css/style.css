@@ -5,9 +5,7 @@
     --basic-grey : #464646;
     --basic-half-grey : #7E7E7E;
     --basic-grey-light : #E5E5E5;
-    --basic-white-grey: rgba(255, 255, 255, 0.3);
-    --basic-white-dim: rgba(255, 255, 255, 0.7);
-    --basic-white-min:rgba(255, 255, 255, 0.6);
+    --basic-white-low : rgba(255, 255, 255, 0.7);
 
     --special-yellow : #F7E296;
     --special-green : #91C92F;
@@ -21,7 +19,7 @@
   
     src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
     url("../fonts/gilroyextrabold.woff") format("woff");
-  }
+}
 
 @font-face {
       font-weight: 300;
@@ -30,7 +28,7 @@
       
       src: url("../fonts/gilroylight.woff") format("woff"),
       url("../fonts/gilroylight.woff2") format("woff2")
-  }
+}
 
 @font-face {
       font-weight: 300;
@@ -42,14 +40,18 @@
 
 a {
     text-decoration: none;
-  }
+}
+
+.list-unstyled ul {
+    list-style: none;
+}
+
 
 img {
     max-width: 100%;
     height: auto;
   }
   
-
 body {
     min-width: 960px;
     margin: 0;
@@ -62,15 +64,15 @@ body {
     background: no-repeat;
 }
 
-a {
-    text-decoration: none;
+ul {
+    list-style: none;
 }
 
 .wrapper {
     font-size: 15px;
     line-height: 20px;
     list-style: none;
-    font-family: 'Open-sans';
+    font-family: 'Open-sans', Arial, sans-serif;
 
 }
 
@@ -78,27 +80,32 @@ a {
     color: var(--basic-black);
 }
 
-.wrapper :hover {
+.wrapper a:hover {
     opacity: 0.6;
 }
-.wrapper :active {
+
+.wrapper a:active {
     opacity: 0.3
 }
 
 .main-header-menu {
     font-size: 18px;
     line-height: 22px;
-    list-style: none;
     font-weight: 800;
-    font-family: "Gilroy";
-
-
+    font-family: "Gilroy", Arial, sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 
-.main-header-menu :hover {
+.catalog-menu-item {
+    letter-spacing: 0em;
+    text-transform: none;
+}
+.main-header-menu a:hover {
     opacity: 0.6;
 }
-.main-header-menu :active {
+
+.main-header-menu a:active {
     opacity: 0.3;
 }
 
@@ -108,8 +115,9 @@ a {
 
 .catalog-menu {
     font-weight: 300;
-    list-style: none;
-    font-family: 'Open-sans'
+    font-family: 'Open-sans', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .visually-hidden {
@@ -122,18 +130,19 @@ a {
     border: 0;
     clip: rect(0 0 0 0)
 }
+
 .slider-text-top {
     font-weight: 800;
     font-size: 47px;
     line-height: 58px;
-    font-family: "Gilroy";
+    font-family: "Gilroy", Arial, sans-serif;
 }
 
 .slider-text-bottom {
     font-weight: 300;
     font-size: 15px;
     line-height: 20px;
-    font-family: 'Open-sans'
+    font-family: "Open-sans", Arial, sans-serif;
 
 }
 
@@ -151,45 +160,32 @@ a {
 }
 
 .slide-list {
-    list-style: none;
-    font-family: "Gilroy-light"
+    font-family: "Gilroy-light", Arial, sans-serif;
+    letter-spacing: 0.1em;
     
 }
 
-.main-slider-container a:hover{
+.main-slider-container a:hover {
     color: var(--basick-black);
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
-    list-style: none;
-    font-family: "Gilroy";
+    font-family: "Gilroy", Arial, sans-serif;
     padding: 9px 43px 9px 43px;
     background-color:  var(--special-yellow-dark);
-
 }
 
-.main-slider-container a{
+.main-slider-container a {
     color: var(--basick-black);
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
-    list-style: none;
-    font-family: "Gilroy";
-    padding: 7px 42px 7px 42px;
-    position: relative;
-}
-.main-slider-container a::before{
-    content: '';
-    position: absolute;
-    width: 220px;
-    height: 8px;
-    left: 511px;
-    top: 359px;
-    background-color: var(--special-yellow-dark);
-
+    font-family: "Gilroy", Arial, sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 
-.main-slider-container a:active{
+.main-slider-container a:active {
     opacity: 0.3;
 }
 
@@ -197,20 +193,17 @@ a {
     font-weight: 800;
     font-size: 18px;
     line-height: 22px; 
-    list-style: none;
-    font-family: "Gilroy";
-    
-
+    font-family: "Gilroy", Arial, sans-serif;
+    letter-spacing: 0.05em;
 }
 
-.product-list :active{
+.product-item li:active {
     opacity: 0.3;
 }
 
 .product a {
     color: var(--basick-black);
 }
-
 
 .services {
     background-color: var(--basic-grey-light);
@@ -220,47 +213,40 @@ a {
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
-    list-style: none;
-    font-family: "Gilroy";
-   
+    font-family: "Gilroy", Arial, sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 
-.services-nav a:hover{
+.services-nav a:hover {
     padding: 9px 25px 9px 24px;
     background-color:  var(--special-yellow-dark);
-
 }
 
-.services-nav a:active{
+.services-nav a:active {
     padding: 9px 145px 9px 24px; ;
     background-color: var(--basic-black);
     color: var(--special-yellow)
 }
 
-
 .services-nav a {
     color: var(--basick-black);
 }
-
-
 
 .services-item-title {
     font-weight: 800;
     font-size: 47px;
     line-height: 58px;
-    font-family: "Gilroy"; 
-
+    font-family: "Gilroy", Arial, sans-serif; 
+    letter-spacing: 0.2em;
 }
 
 .services-item-discription {
     font-weight: 300;
     font-size: 15px;
     line-height: 28px;
-    font-family: 'Open-sans';
-}
-
-.brend-list {
-    list-style: none;
+    font-family: 'Open-sans', Arial, sans-serif;
+    letter-spacing: 0.1em;
 }
 
 .main-footer {
@@ -275,12 +261,12 @@ a {
     font-weight: 800;
     font-size: 47px;
     line-height: 58px;
-    font-family: "Gilroy";
+    font-family: "Gilroy", Arial, sans-serif;
+    letter-spacing: 0.2em;
 }
 
 .delivery-services-list {
-    list-style: none;
-    font-family: "Gilroy";
+    font-family: "Gilroy", Arial, sans-serif;
 }
 
 .delivery-service {
@@ -294,59 +280,67 @@ a {
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
-    font-family: "Gilroy";
-
+    font-family: "Gilroy", Arial, sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 
 .information-we-text {
-    font-family: 'Open-sans';
-
+    font-family: 'Open-sans', Arial, sans-serif;
 }
-
 
 .information-contacts a {
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
     color: var(--basic-dark);
-    font-family: "Gilroy";
+    font-family: "Gilroy", Arial, sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.detailed:hover {
+    background-color: var(--special-yellow-dark);
+    padding: 7px 18px 7px 24px;
+}
+
+.detailed:active {
+    opacity: 0.3;
 }
 
 .information-contacts-header {
     font-weight: 800;
     font-size: 47px;
     line-height: 58px;
-    font-family: "Gilroy";
+    font-family: "Gilroy", Arial, sans-serif;
+    letter-spacing: 0.2em;
 }
 
 .information-contact-text {
     font-weight: 300;
     font-size: 15px;
     line-height: 28px;
-    font-family: 'Open-sans'
-
+    font-family: 'Open-sans', Arial, sans-serif;
 }
 
-.main-footer-wrapper a {
-     color: var(--basic-white-dim);
+.main-footer-wrapper {
      font-weight: 300;
      font-size: 15px;
      line-height: 20px;
-     font-weight: 300;
-     font-size: 15px;
-     line-height: 20px;
-     font-family: 'Open-sans';
-
+     font-family: 'Open-sans', Arial, sans-serif;
 }
 
-.wrapper-bottom a:hover{
+.wrapper-bottom a:hover {
     color: var(--basic-white);
 }
 
-.wrapper-bottom a:active{
-    color: var(--basic-white-grey)
+.wrapper-bottom a {
+    color: var(--basic-white-low)
 }
-
+.wrapper-bottom a:active {
+    color: var(--basic-white);
+    opacity: 0.3;
+}
 
 .footer-social a {
     color: var(--basic-white);
@@ -356,19 +350,23 @@ a {
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 
 .footer-contacts-services a {
     color: var(--basic-white);
-    font-family: "Gilroy";
+    font-family: "Gilroy", Arial, sans-serif;
 }
 
-.footer-contacts-services a:hover{
-    color: var(--basic-white-min);
+.footer-contacts-services a:hover {
+    color: var(--basic-white);
+    opacity: 0.7;
 }
 
-.footer-contacts-services a:active{
-    color: var(--basic-white-grey)
+.footer-contacts-services a:active {
+    color: var(--basic-white);
+    opacity: 0.3;
 }
 
 .footer-contacts-telephone  {
@@ -376,7 +374,7 @@ a {
     font-size: 15px;
     line-height: 20px;
     color: var(--basic-white);
-    font-family: 'Open-sans';
+    font-family: 'Open-sans', Arial, sans-serif;
 }
 
 .footer-contacts-address {
@@ -386,6 +384,3 @@ a {
     color: var(--basic-white);
 }
 
-.main-footer ul {
-    list-style: none;
-}
