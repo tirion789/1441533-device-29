@@ -36,7 +36,7 @@
 
     src: url("../fonts/opensans.woff")format("woff"),
     url("../fonts/opensans.woff2") format("woff2"),
-  }
+}
 
 a {
     text-decoration: none;
@@ -51,7 +51,7 @@ a {
 img {
     max-width: 100%;
     height: auto;
-  }
+}
   
 body {
     min-width: 960px;
