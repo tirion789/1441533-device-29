@@ -22,20 +22,20 @@
 }
 
 @font-face {
-      font-weight: 300;
-      font-family: "Gilroy-light";
-      font-style: normal;
+    font-weight: 300;
+    font-family: "Gilroy-light";
+    font-style: normal;
       
-      src: url("../fonts/gilroylight.woff") format("woff"),
-      url("../fonts/gilroylight.woff2") format("woff2")
+    src: url("../fonts/gilroylight.woff") format("woff"),
+    url("../fonts/gilroylight.woff2") format("woff2")
 }
 
 @font-face {
-      font-weight: 300;
-      font-family: "Open-sans";
+    font-weight: 300;
+    font-family: "Open-sans";
 
-      src: url("../fonts/opensans.woff")format("woff"),
-      url("../fonts/opensans.woff2") format("woff2"),
+    src: url("../fonts/opensans.woff")format("woff"),
+    url("../fonts/opensans.woff2") format("woff2"),
   }
 
 a {
