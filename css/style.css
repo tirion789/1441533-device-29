@@ -65,26 +65,26 @@ body {
     background: no-repeat;
 }
 
-.wrapper {
+.menu {
     font-size: 15px;
     line-height: 20px;
     list-style: none;
     font-family: "Open-sans", "Arial", sans-serif;
 }
 
-.wrapper a {
+.menu a {
     color: var(--basic-black);
 }
 
-.wrapper a:hover {
+.menu a:hover {
     opacity: 0.6;
 }
 
-.wrapper a:active {
+.menu a:active {
     opacity: 0.3;
 }
 
-.main-header-menu {
+.navigation-list {
     font-size: 18px;
     line-height: 22px;
     font-weight: 800;
@@ -93,24 +93,24 @@ body {
     text-transform: uppercase;
 }
 
-.catalog-menu-item {
+.navigation-second-item {
     letter-spacing: 0em;
     text-transform: none;
 }
 
-.main-header-menu a:hover {
+.navigation-list a:hover {
     opacity: 0.6;
 }
 
-.main-header-menu a:active {
+.navigation-listu a:active {
     opacity: 0.3;
 }
 
-.main-header-menu a {
+.navigation-list a {
     color: var(--basick-black);
 }
 
-.catalog-menu {
+.navigation-second {
     font-weight: 300;
     font-family: "Open-sans", "Arial", sans-serif;
     font-size: 15px;
@@ -128,14 +128,14 @@ body {
     clip: rect(0 0 0 0)
 }
 
-.slider-text-top {
+.slide-title {
     font-weight: 800;
     font-size: 47px;
     line-height: 58px;
     font-family: "Gilroy", "Arial", sans-serif;
 }
 
-.slider-text-bottom {
+.slide-description {
     font-weight: 300;
     font-size: 15px;
     line-height: 20px;
@@ -159,7 +159,7 @@ body {
     letter-spacing: 0.1em;
 }
 
-.main-slider-container a:hover {
+.slider-container a:hover {
     color: var(--basick-black);
     font-weight: 800;
     font-size: 18px;
@@ -169,7 +169,7 @@ body {
     background-color:  var(--special-yellow-dark);
 }
 
-.main-slider-container a {
+.slider-container a {
     color: var(--basick-black);
     font-weight: 800;
     font-size: 18px;
@@ -179,7 +179,7 @@ body {
     text-transform: uppercase;
 }
 
-.main-slider-container a:active {
+.slider-container a:active {
     opacity: 0.3;
 }
 
@@ -203,7 +203,7 @@ body {
     background-color: var(--basic-grey-light);
 }
 
-.services-nav {
+.services-list {
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
@@ -212,18 +212,18 @@ body {
     text-transform: uppercase;
 }
 
-.services-nav a:hover {
+.services-list a:hover {
     padding: 9px 25px 9px 24px;
     background-color:  var(--special-yellow-dark);
 }
 
-.services-nav a:active {
+.services-list a:active {
     padding: 9px 145px 9px 24px; ;
     background-color: var(--basic-black);
     color: var(--special-yellow)
 }
 
-.services-nav a {
+.services-list a {
     color: var(--basick-black);
 }
 
@@ -251,7 +251,7 @@ body {
     background-color: var(--special-yellow);
 }
 
-.information-we-header {
+.information-about-title {
     font-weight: 800;
     font-size: 47px;
     line-height: 58px;
@@ -269,7 +269,7 @@ body {
     line-height: 28px;
 }
 
-.information-we a {
+.information-about a {
     color: var(--basic-dark);
     font-weight: 800;
     font-size: 18px;
@@ -279,7 +279,7 @@ body {
     text-transform: uppercase;
 }
 
-.information-we-text {
+.information-about-text {
     font-family: "Open-sans", "Arial", sans-serif;
 }
 
@@ -302,7 +302,7 @@ body {
     opacity: 0.3;
 }
 
-.information-contacts-header {
+.information-contacts-title {
     font-weight: 800;
     font-size: 47px;
     line-height: 58px;
@@ -379,4 +379,74 @@ body {
     color: var(--basic-white);
 }
 
+.social-fb a {
+    background-image: url(../img/Vector.svg); 
+    display: block; 
+    width: 32px; 
+    height: 32px;
+    opacity: 0.3;
+}
+
+.social-instagram a {
+    background-image: url(../img/Vector-2.svg);
+    display: block;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+.social-twitter a {
+    background-image: url(../img/Vector-3.svg);
+    display: block;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+.social-academy {
+    background-image: url(../img/Vector-4.svg);
+    display: block;
+    width: 26.94px;
+    height: 32px;
+}
+
+.social-fb a:hover {
+    opacity: 0.6;
+}
+
+.social-fb a:active {
+    opacity: 0.1;
+}
+
+.social-instagram a:hover {
+    opacity: 0.6;
+}
+
+.social-instagram a:active {
+    opacity: 0.1;
+}
+
+.social-twitter a:hover {
+    opacity: 0.6;
+}
+
+.social-twitter a:active {
+    opacity: 0.3;
+}
+
+.social-academy:hover {
+    opacity: 0.6;
+}
+
+.social-academy:active {
+    opacity: 0.3;
+}
+
+.logo a:hover {
+    opacity: 0.6;
+}
+
+.logo:active {
+    opacity: 0.3;
+}
 
