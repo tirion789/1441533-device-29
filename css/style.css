@@ -6,6 +6,9 @@
     --basic-half-grey: #7E7E7E;
     --basic-grey-light: #E5E5E5;
     --basic-white-low: rgba(255, 255, 255, 0.7);
+    --basic-white-grey: #DCDCDC;
+    --basic-white-light: #EBEBEB;
+    --bacic-white-3: #D9D9D9;
 
     --special-yellow: #F7E296;
     --special-green: #91C92F;
@@ -449,4 +452,175 @@ body {
 .logo:active {
     opacity: 0.3;
 }
+
+.product-name-title {
+    font-weight: 800;
+    font-size: 47px;
+    line-height: 58px;
+    font-family: "Gilroy", "Arial", sans-serif;
+}
+
+.breadcrumbs a{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: "Open-sans", "Arial", sans-serif;
+    color: var(--basic-black);
+    opacity: 0.3;
+}
+
+.breadcrumbs a:hover {
+    opacity: 0.6;
+}
+
+.breadcrumbs a:active {
+    opacity: 0.1;
+}
+
+.filters-title {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: "Gilroy", "Arial", sans-serif;
+    background-color: var(--basic-white-grey);
+    padding: 25px 193px 25px 200px;
+}
+
+.sort-title {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: "Gilroy", "Arial", sans-serif;
+}
+
+.sort-actived {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: normal;
+    font-family: "Open-sans", "Arial", sans-serif;
+}
+
+.sort-inactive {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: "Open-sans", "Arial", sans-serif;
+    opacity: 0.3;
+}
+
+.button-basket {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Gilroy", "Arial", sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border: 0;
+    padding: 0;
+}
+
+.button-basket:hover {
+    background-color: var(--special-yellow-dark);
+    padding: 10px 38px 8px 38px;
+}
+
+.button-basket:active {
+    opacity: 0.3;
+    background-color: var(--special-yellow-dark);
+    padding: 10px 38px 8px 38px;
+}
+
+.sort {
+    background-color: var(--basic-grey-light);
+}
+
+.button-comparison {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    font-family: "Open-sans", "Arial", sans-serif;
+    opacity: 0.5;
+    border: 0;
+    padding: 0;
+}
+
+.button-comparison:hover {
+    opacity: 1;
+}
+
+.button-comparison:active {
+    opacity: 0.2;
+}
+
+.price {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    font-family: "Gilroy-light", "Arial", sans-serif;
+}
+
+.product-name {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: var(--basic-black);
+    font-family: "Gilroy", "Arial", sans-serif;
+}
+
+.sort-list a:hover{
+    opacity: 0.6;
+}
+
+.sort-list a:active{
+    opacity: 1;
+}
+
+.sort-list a{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: "Open-sans", "Arial", sans-serif;
+    color: var(--basic-black);
+    opacity: 0.3;
+}
+
+.switch a{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--basic-black);
+}
+
+.switch {
+    background-color: var(--basic-white-light);
+}
+
+.switch-inactive {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.3;
+}
+
+.button-nav:hover {
+    background-color: var(--bacic-white-3);
+    padding: 25px 30px 25px 30px;
+}
+
+.button-nav:active {
+    opacity: 0.3;
+}
+
+
 
