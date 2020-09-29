@@ -8,7 +8,7 @@
   --basic-white-low: rgba(255, 255, 255, 0.7);
   --basic-white-grey: #DCDCDC;
   --basic-white-light: #EBEBEB;
-  --bacic-white-3: #D9D9D9;
+  --bacic-white-shadow: #D9D9D9;
 
   --special-yellow: #F7E296;
   --special-green: #91C92F;
@@ -66,6 +66,7 @@ body {
   background-color: var(--basic-white);
   background-position: top center;
   background: no-repeat;
+  font-family: "Gilroy", "Arial", sans-serif;
 }
 
 .menu {
@@ -91,7 +92,6 @@ body {
   font-size: 18px;
   line-height: 22px;
   font-weight: 800;
-  font-family: "Gilroy", "Arial", sans-serif;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -135,7 +135,6 @@ body {
   font-weight: 800;
   font-size: 47px;
   line-height: 58px;
-  font-family: "Gilroy", "Arial", sans-serif;
 }
 
 .slide-description {
@@ -167,7 +166,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
-  font-family: "Gilroy", "Arial", sans-serif;
   padding: 9px 43px 9px 43px;
   background-color: var(--special-yellow-dark);
 }
@@ -177,7 +175,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
-  font-family: "Gilroy", "Arial", sans-serif;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -190,7 +187,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
-  font-family: "Gilroy", "Arial", sans-serif;
 }
 
 .product-list a:active {
@@ -209,7 +205,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
-  font-family: "Gilroy", "Arial", sans-serif;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -222,7 +217,7 @@ body {
 .services-list a:active {
   padding: 9px 145px 9px 24px;
   background-color: var(--basic-black);
-  color: var(--special-yellow)
+  color: var(--special-yellow);
 }
 
 .services-list a {
@@ -233,7 +228,6 @@ body {
   font-weight: 800;
   font-size: 47px;
   line-height: 58px;
-  font-family: "Gilroy", "Arial", sans-serif;
   letter-spacing: 9px;
 }
 
@@ -257,12 +251,7 @@ body {
   font-weight: 800;
   font-size: 47px;
   line-height: 58px;
-  font-family: "Gilroy", "Arial", sans-serif;
   letter-spacing: 9px;
-}
-
-.delivery-services-list {
-  font-family: "Gilroy", "Arial", sans-serif;
 }
 
 .delivery-service {
@@ -276,7 +265,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
-  font-family: "Gilroy", "Arial", sans-serif;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -290,7 +278,6 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: var(--basic-dark);
-  font-family: "Gilroy", "Arial", sans-serif;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -308,7 +295,6 @@ body {
   font-weight: 800;
   font-size: 47px;
   line-height: 58px;
-  font-family: "Gilroy", "Arial", sans-serif;
   letter-spacing: 9px;
 }
 
@@ -353,7 +339,6 @@ body {
 
 .footer-contacts-services a {
   color: var(--basic-white);
-  font-family: "Gilroy", "Arial", sans-serif;
 }
 
 .footer-contacts-services a:hover {
@@ -382,7 +367,7 @@ body {
 }
 
 .social-fb a {
-  background-image: url(../img/Vector.svg);
+  background-image: url(../img/facebook.svg);
   display: block;
   width: 32px;
   height: 32px;
@@ -390,7 +375,7 @@ body {
 }
 
 .social-instagram a {
-  background-image: url(../img/Vector-2.svg);
+  background-image: url(../img/instagram.svg);
   display: block;
   width: 32px;
   height: 32px;
@@ -398,7 +383,7 @@ body {
 }
 
 .social-twitter a {
-  background-image: url(../img/Vector-3.svg);
+  background-image: url(../img/twitter.svg);
   display: block;
   width: 32px;
   height: 32px;
@@ -406,7 +391,7 @@ body {
 }
 
 .social-academy {
-  background-image: url(../img/Vector-4.svg);
+  background-image: url(../img/academy.svg);
   display: block;
   width: 26.94px;
   height: 32px;
@@ -456,7 +441,6 @@ body {
   font-weight: 800;
   font-size: 47px;
   line-height: 58px;
-  font-family: "Gilroy", "Arial", sans-serif;
 }
 
 .breadcrumbs a {
@@ -482,7 +466,6 @@ body {
   line-height: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Gilroy", "Arial", sans-serif;
   background-color: var(--basic-white-grey);
   padding: 25px 193px 25px 200px;
 }
@@ -493,7 +476,6 @@ body {
   line-height: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Gilroy", "Arial", sans-serif;
 }
 
 .sort-actived {
@@ -515,7 +497,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
-  font-family: "Gilroy", "Arial", sans-serif;
   letter-spacing: 3px;
   text-transform: uppercase;
   border: 0;
@@ -567,7 +548,6 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: var(--basic-black);
-  font-family: "Gilroy", "Arial", sans-serif;
 }
 
 .sort-list a:hover {
@@ -609,7 +589,7 @@ body {
 }
 
 .button-nav:hover {
-  background-color: var(--bacic-white-3);
+  background-color: var(--bacic-white-shadow);
   padding: 25px 30px;
 }
 
