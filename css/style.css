@@ -57,7 +57,7 @@ img {
 }
 
 body {
-  min-width: 960px;
+  min-width: 1440px;
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -187,6 +187,9 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
+  display: grid;
+  grid-template-columns: repeat(6, 160px);
+  column-gap: 40px;
 }
 
 .product-list a:active {
@@ -199,6 +202,7 @@ body {
 
 .services {
   background-color: var(--basic-grey-light);
+  width: 1440px;
 }
 
 .services-list {
@@ -207,6 +211,7 @@ body {
   line-height: 22px;
   letter-spacing: 3px;
   text-transform: uppercase;
+
 }
 
 .services-list a:hover {
@@ -245,6 +250,7 @@ body {
 
 .main-header {
   background-color: var(--special-yellow);
+  height: 300px;
 }
 
 .information-about-title {
@@ -596,4 +602,59 @@ body {
 .button-nav:active {
   opacity: 0.3;
 }
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+} 
+
+.page-body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
+nav {
+  display: grid;
+}
+
+.grid-column {
+  display: grid;
+} 
+
+.brand-list {
+  display: grid;
+  grid-template-columns: repeat(4, 260px);
+  column-gap: 40px;
+}
+
+.brand-list-item {
+  display: block;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.information {
+  display: grid;
+  grid-template-columns: repeat(2, 560px);
+  column-gap: 40px;
+}
+
+.container-slide {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.information-about {
+  width: 473px;
+}
+
+
+
+
+
 
