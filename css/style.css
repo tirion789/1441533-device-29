@@ -203,8 +203,7 @@ body {
 
 .services {
   background-color: var(--basic-grey-light);
-  min-width: 1440px;
-  min-height: 280px;
+
 }
 
 .services-list {
@@ -678,4 +677,3 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
