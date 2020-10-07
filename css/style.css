@@ -187,9 +187,10 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
-  display: grid;
-  grid-template-columns: repeat(6, 160px);
+  display: flex;
+  justify-content: space-between;
   column-gap: 40px;
+  flex-wrap: wrap;
 }
 
 .product-list a:active {
@@ -202,7 +203,8 @@ body {
 
 .services {
   background-color: var(--basic-grey-light);
-  width: 1440px;
+  min-width: 1440px;
+  min-height: 280px;
 }
 
 .services-list {
@@ -211,7 +213,6 @@ body {
   line-height: 22px;
   letter-spacing: 3px;
   text-transform: uppercase;
-
 }
 
 .services-list a:hover {
@@ -250,7 +251,7 @@ body {
 
 .main-header {
   background-color: var(--special-yellow);
-  height: 300px;
+  min-height: 300px;
 }
 
 .information-about-title {
@@ -295,6 +296,10 @@ body {
 
 .detailed:active {
   opacity: 0.3;
+}
+
+.napishi-nam {
+  margin-top: 2368px;
 }
 
 .information-contacts-title {
@@ -447,6 +452,8 @@ body {
   font-weight: 800;
   font-size: 47px;
   line-height: 58px;
+  margin-top: 44px;
+  margin-left: 200px;
 }
 
 .breadcrumbs a {
@@ -456,6 +463,13 @@ body {
   font-family: "Open-sans", "Arial", sans-serif;
   color: var(--basic-black);
   opacity: 0.3;
+}
+
+.breadcrumbs {
+  display: grid;
+  grid-template-columns: 54px 109px 142px;
+  column-gap: 40px;
+  margin-left: 200px;
 }
 
 .breadcrumbs a:hover {
@@ -482,6 +496,7 @@ body {
   line-height: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  padding: 25px 774px 25px 72px;
 }
 
 .sort-actived {
@@ -560,6 +575,12 @@ body {
   opacity: 0.6;
 }
 
+.sort-list {
+  display: grid;
+  grid-template-columns: 56px 54px 119px;
+  column-gap: 30px;
+}
+
 .sort-list a:active {
   opacity: 1;
 }
@@ -606,55 +627,55 @@ body {
 .container {
   width: 1160px;
   margin: 0 auto;
-} 
-
-.page-body {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: min-content 1fr min-content;
-  align-content: start;
 }
-
-nav {
-  display: grid;
-}
-
-.grid-column {
-  display: grid;
-} 
 
 .brand-list {
-  display: grid;
-  grid-template-columns: repeat(4, 260px);
+  display: flex;
+  justify-content: space-between;
   column-gap: 40px;
-}
-
-.brand-list-item {
-  display: block;
 }
 
 .services-container {
-  display: grid;
-  grid-template-columns: auto 1fr;
-}
-
-.information {
-  display: grid;
-  grid-template-columns: repeat(2, 560px);
-  column-gap: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container-slide {
-  display: grid;
-  grid-template-columns: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-container {
+  width: 384px;
+  height: 486px;
+  margin-right: 70px;
+  margin-left: 89px;
+}
+
+.slide {
+  width: 517px;
+  height: 395px;
+  margin-right: 82px;
 }
 
 .information-about {
   width: 473px;
+  height: 580px;
 }
 
+.information-contacts {
+  width: 560px;
+  height: 580px;
+}
 
+.information-container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 127px;
+}
 
-
-
+.container-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
