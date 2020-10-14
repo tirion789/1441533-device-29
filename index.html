@@ -9,16 +9,16 @@
 </head>
 
 <body>
-  <header class="main-header  container">
+  <header class="main-header">
     <div class="logo header-logo">
       <a href="#"><img src="img/logo-device-1.png" width="163.3" height="34.96" alt="Логотип сайта DEVICE"></a>
     </div>
     <div class="main-header-wrapper">
-      <div class="main-header-form">
+      <div class="form">
         тут форма поиска
       </div>
       <ul class="menu list-unstyled">
-        <li class="menu-link"><a href="#">Войти</a></li>
+        <li class="menu-link entrance"><a href="#">Войти</a></li>
         <li class="menu-link"><a href="#">Сравнить</a></li>
         <li class="menu-link"><a href="#">Корзина</a></li>
       </ul>
@@ -55,19 +55,19 @@
             <p class="slide-description">Самая длинная палка для селфи доступна в нашем магазине.Восемь (Восемь, Карл!)
               метров длиной и весом всего 5
               килограмм.</p>
-            <a href="index.html">Подробнее</a>
+            <a class="qweee"href="index.html">Подробнее</a>
             <ul class="slide-list list-unstyled">
-              <li class="slide-item">
-                <span class="slider-text-inside-bottom">Длина палки</span>
-                <span class="slider-text-inside-top">8.5м</span>
+              <li class="slide-item one">
+                <span class="slider-text-inside-top">8.5 м</span>
+                <span class="slider-text-inside-bottom first-text-slider">Длина палки</span>
               </li>
-              <li class="slide-item">
-                <span class="slider-text-inside-bottom">Вес палки</span>
+              <li class="slide-item two">
                 <span class="slider-text-inside-top">5 кг</span>
+                <span class="slider-text-inside-bottom two-text-slider">Вес палки</span>
               </li>
-              <li class="slide-item">
-                <span class="slider-text-inside-bottom">Материал</span>
+              <li class="slide-item three">
                 <span class="slider-text-inside-top">Карбон</span>
+                <span class="slider-text-inside-bottom three-text-slider">Материал</span>
               </li>
             </ul>
           </div>
@@ -102,27 +102,29 @@
             </li>
           </ul>
         </div>-->
-        </div>
+      </div>
       </section>
       <section class="product">
         <ul class="product-list list-unstyled">
-          <li class="product-item"><a href="catalog.html">
-              Виртуальная реальность</a>
+          <li class="product-item virtual">
+          <a class="product-item-link" href="catalog.html">
+            <p>Виртуальная реальность</p>
+          </a>
           </li>
-          <li class="product-item"><a href="catalog.html">
-              Моноподы для селфи</a>
+          <li class="product-item selfie" ><a class="product-item-link"  href="catalog.html">
+              <p>Моноподы для селфи</p></a>
           </li>
-          <li class="product-item"><a href="catalog.html">
-              Экшн-камеры</a>
+          <li class="product-item camera"><a class="product-item-link" href="catalog.html">
+              <p>Экшн-камеры</p></a>
           </li>
-          <li class="product-item"><a href="catalog.html">
-              Фитнес-браслеты</a>
+          <li class="product-item fitness"><a class="product-item-link" href="catalog.html">
+              <p>Фитнес-браслеты</p></a>
           </li>
-          <li class="product-item"><a href="catalog.html">
-              Умные часы</a>
+          <li class="product-item watch"><a class="product-item-link" href="catalog.html">
+              <p>Умные часы</p></a>
           </li>
-          <li class="product-item"><a href="catalog.html">
-              Квадрокоптеры</a>
+          <li class="product-item copter"><a class="product-item-link" href="catalog.html">
+              <p>Квадрокоптеры</p></a>
           </li>
         </ul>
     </div>
@@ -130,9 +132,9 @@
     <section class="services">
       <div class="services-container">
         <ul class="services-list list-unstyled">
-          <li><a href="index.html">Доставка</a></li>
-          <li><a href="index.html">Гарантия</a></li>
-          <li><a href="index.html">Кредит</a></li>
+          <li class="services-list-items services-list-items-first"><a href="index.html">Доставка</a></li>
+          <li class="services-list-items"><a href="index.html">Гарантия</a></li>
+          <li class="services-list-items "><a href="index.html">Кредит</a></li>
         </ul>
         <div class="services-discription">
           <div class="services-discription-delivery">
@@ -157,8 +159,8 @@
         </div>
       </div>
     </section>
+  <div class="container">
     <section class="brand">
-      <div class="container">
         <ul class="brand-list list-unstyled">
           <li class="brand-list-item"><a class="brand-1" href="index.html"><img class="bloac" src="img/logo-dji.png"
                 width="260" height="100" alt="Dji"></a></li>
@@ -174,10 +176,10 @@
       <div class="information-container container">
         <div class="information-about">
           <h2 class="information-about-title">О нас</h2>
-          <p class="information-about-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом
+          <p class="information-about-text first-text-information">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом
             из
             нас.</p>
-          <p class="information-about-text">Мы можем доставить ваш товар в самые отдалённые точки России! DEVICE
+          <p class="information-about-text text-two-information">Мы можем доставить ваш товар в самые отдалённые точки России! DEVICE
             работает
             со
             многими транспортными
@@ -187,24 +189,24 @@
             <li class="delivery-service">Автотрейдинг</li>
             <li class="delivery-service">ЖелДорЭкспедийция</li>
           </ul>
-          <a class="detailed" href="#">Подробнее о нас</a>
+          <span class="detailed"><a href="#">Подробнее о нас</a></span>
         </div>
         <div class="information-contacts">
           <h2 class="information-contacts-title">Контакты</h2>
           <p class="information-contact-text">Вы можете выбрать товар сами, заехав в наш офис. Заодно,вы сможете
             проверить работоспособность покупки.Всякое бывает</p>
-          <a href="index.html"><img src="img/map 1.png" width="560" height="222"
+          <a href="index.html"><img class="img-maps" src="img/map 1.png" width="560" height="222"
               alt="Карта офиса по адресу улица Строителей, 15"></a>
-          <a class="napishi-nam detailed" href="#">Напишите нам</a>
+          <a class="detailed" href="#">Напишите нам</a>
         </div>
       </div>
-      </div>
     </section>
+  </div>
   </main>
   <footer class="main-footer">
     <div class="container container-footer">
-      <div class="main-footer-wrapper">
-        <div class="logo">
+      <div class="main-footer-wrapper left-footer-wrapper">
+        <div class="logo logo-footer">
           <a href="#"><img src="img/logo-device-2.png" width="163.3" height="34.96" alt="Лого сайта DEVICE"></a>
         </div>
         <p class="footer-contacts-address">г.Москва.ул.Строителей,15</p>
@@ -216,12 +218,12 @@
           <li class="footer-contact-services"><a href="#">Контакты</a></li>
         </ul>
         <ul class="footer-social-list list-unstyled">
-          <li class="social-fb"><a href="#"></a></li>
-          <li class="social-instagram"><a href="#"></a></li>
-          <li class="social-twitter"><a href="#"></a></li>
+          <li class="social-fb social-teleg"><a href="#"></a></li>
+          <li class="social-instagram social-teleg"><a href="#"></a></li>
+          <li class="social-twitter social-teleg"><a href="#"></a></li>
         </ul>
       </div>
-      <div class="main-footer-wrapper">
+      <div class="main-footer-wrapper right-footer-wrapper">
         <ul class="wrapper-bottom list-unstyled">
           <li class="wrapper-item-bottom"><a href="#">Войти</a></li>
           <li class="wrapper-item-bottom"><a href="#">Сравнить</a></li>
