@@ -86,16 +86,16 @@ body {
   margin-right: 63px
 }
 
-.menu a {
-  color: var(--basic-black);
-}
-
-.menu a:hover {
+.menu-link:hover {
   opacity: 0.6;
 }
 
-.menu a:active {
+.menu-link:active {
   opacity: 0.3;
+}
+
+.menu a {
+  color: var(--basic-black);
 }
 
 .page {
@@ -258,16 +258,60 @@ body {
   flex-wrap: wrap;
 }
 
-.entrance:before {
-  display: block;
-  content: '';
+.compare {
+  position: relative;
+}
+
+.compare::before {
+  content: "";
   position: absolute;
-  background-image: url(../img/profile-svg.svg);
-  background-size: 9px 10px;
+  width: 10px;
+  height: 10px;
+  background-image: url(../img/compare.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  left: -20px;
+  top: 5px;
+}
+
+.basket {
+  position: relative;
+}
+
+.basket::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-image: url(../img/basket.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  left: -20px;
+  top: 5px;
+}
+
+.entrance {
+  position: relative;
+}
+
+.entrance:hover::before {
+  opacity: 0.6;
+}
+
+.entrance:active::before {
+  opacity: 0.3;
+}
+
+.entrance::before {
+  content: "";
+  position: absolute;
   width: 9px;
   height: 10px;
-  left: 602.17px;
-  top: 50.33px;
+  background-image: url(../img/profile-svg.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  left: -20px;
+  top: 5px;
 }
 
 .services-list-items::before {
@@ -385,6 +429,16 @@ body {
   margin-left: auto;
   margin-right: auto; 
   position: relative;
+}
+
+.main-header::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 7px;
+  background-color: var(--basic-white);
+  left: 600px;
+  top: 205px;
 }
 
 .delivery-services-list {
@@ -907,4 +961,3 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
