@@ -344,6 +344,20 @@ body {
   margin-top: -29px;
 }
 
+.services-discription {
+  position: relative;
+}
+
+.services-discription::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/delivery-man.svg);
+  width: 136px;
+  height: 164px;
+  
+
+}
+
 .services-list {
   font-weight: 800;
   font-size: 18px;
@@ -946,7 +960,6 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  position: relative;
 }
 
 .information-container {
