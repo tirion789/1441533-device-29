@@ -298,6 +298,7 @@ body {
   opacity: 0.6;
 }
 
+
 .entrance:active::before {
   opacity: 0.3;
 }
@@ -337,25 +338,22 @@ body {
   background-color: var(--basic-grey-light);
   margin-top: 89px;
   min-height: 288px;
-}
-
-.services-discription-delivery {
-  margin-left: 240px;
-  margin-top: -29px;
-}
-
-.services-discription {
   position: relative;
 }
 
-.services-discription::before {
+.services-container::before {
   content: "";
   position: absolute;
   background-image: url(../img/delivery-man.svg);
   width: 136px;
   height: 164px;
-  
+  left: 1022px;
+  top: -29px;
+}
 
+.services-discription-delivery {
+  margin-left: 240px;
+  margin-top: -29px;
 }
 
 .services-list {
@@ -460,7 +458,10 @@ body {
 }
 
 .img-maps {
+  margin: 0;
   margin-bottom: 85px;
+  margin-top: 40px;
+
 }
 
 .information-about-title {
@@ -468,6 +469,8 @@ body {
   font-size: 47px;
   line-height: 58px;
   letter-spacing: 9px;
+  margin: 0;
+  margin-top: 50px;
 }
 
 .delivery-service {
@@ -486,11 +489,25 @@ body {
   text-transform: uppercase;
 }
 
+.information-about {
+  position: relative;
+}
+
+.information-about::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 7px;
+  background-color: var(--basic-black);
+}
+
 .information-about-text {
   font-family: "Open-sans", "Arial", sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 28px;
+  margin: 0;
+  margin-top: 50px;
 }
 
 .first-text-information {
@@ -513,6 +530,18 @@ body {
   text-transform: uppercase;
 }
 
+.information-contacts {
+  position: relative;
+}
+
+.information-contacts::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 7px;
+  background-color: var(--basic-black);
+}
+
 .detailed:hover {
   background-color: var(--special-yellow-dark);
   padding: 7px 18px 7px 24px;
@@ -527,6 +556,8 @@ body {
   font-size: 47px;
   line-height: 58px;
   letter-spacing: 9px;
+  margin: 0;
+  margin-top: 50px;
 }
 
 .information-contact-text {
@@ -534,6 +565,8 @@ body {
   font-size: 15px;
   line-height: 28px;
   font-family: "Open-sans", "Arial", sans-serif;
+  margin: 0;
+  margin-top: 50px;
 }
 
 .main-footer-wrapper {
@@ -960,6 +993,7 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .information-container {
@@ -968,6 +1002,7 @@ body {
   column-gap: 127px;
   margin-top: 90px;
   margin-bottom: 86px;
+  min-height: 580px;
 }
 
 .container-footer {
