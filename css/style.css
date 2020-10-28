@@ -150,6 +150,7 @@ body {
   z-index: 10;
   background-color: var(--special-yellow);
   margin-left: -60px;
+  position: absolute;
 }
 
 .navigation-second:hover {
@@ -322,8 +323,6 @@ body {
   margin-top: 59px;
 } 
 
-
-
 .container-slide {
   display: grid;
   grid-template-columns: 384px 513px;
@@ -335,6 +334,121 @@ body {
   margin-bottom: 116px;
   margin-top: -134px;
   position: relative;
+}
+
+.btn {
+position: relative;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+background-color: transparent;
+padding: 6px 24px;
+border: none;
+z-index: 3;
+outline: none;
+cursor: pointer;
+margin-top: 35px;
+}
+
+.delivery-btn {
+  padding-left: 19px;
+}
+
+.credit-btn {
+  padding-left: 24px;
+}
+
+.btn-catalog-basket {
+  position: relative;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  z-index: 3;
+  outline: none;
+  cursor: pointer;
+  padding-left: 37px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: -14px;
+  margin-top: 27px;
+}
+
+.btn-catalog-basket:active {
+  color: var(--basic-black-rgb);
+}
+
+.btn-catalog-basket::before {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 8px;
+  width: 200px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: var(--special-yellow-dark);
+  z-index: -1;
+}
+
+.credit-btn {
+  padding-left: 38px;
+}
+
+.btn:before {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 8px;
+  width: 160px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: var(--special-yellow-dark);
+  z-index: -1;
+}
+
+.btn-black:focus::before {
+  height: 40px;
+  top: 15px;
+  margin: 0;
+  width: 280px;
+  background-color: var(--basic-black);
+  color: var(--special-yellow);
+}
+
+.btn-catalog-basket:hover:before {
+  top: 15px;
+  height: 40px;
+  margin: 0;
+  transition: all .3s linear;
+}
+
+.btn-black:focus {
+  color: var(--special-yellow)
+}
+
+.btn:hover:before {
+  top: 15px;
+  height: 40px;
+  margin: 0;
+  transition: all .3s linear;
+}
+
+.btn-black:active:before {
+  background-color: black;
+  opacity: 1;
+  width: 280px;
+  color: var(--basic-white);
+}
+
+.btn-black:active {
+  color: var(--special-yellow);
 }
 
 .container-slide-clock {
@@ -2010,3 +2124,4 @@ body {
   justify-content: space-between;
   margin-top: 34px;
 }
+
