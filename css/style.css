@@ -570,11 +570,6 @@ margin-top: 35px;
   top: 5px;
 }
 
-
-.product-list a:active {
-  opacity: 0.3;
-}
-
 .product a {
   color: var(--basick-black);
 }
@@ -1323,12 +1318,12 @@ margin-top: 35px;
   background-position: center;
 }
 
-.product-item-link:hover::before {
+.product-item-link:active::before {
   background-color: var(--special-yellow-dark);
 }
 
 .product-item-link:active::after,
-.product-item-link:active > p {
+.product-item-link:active>p {
   opacity: 0.3;
 }
 
