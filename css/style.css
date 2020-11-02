@@ -1482,6 +1482,14 @@ padding: 6px 0;
   justify-content: space-between;
 }
 
+.active-link {
+  opacity: 1;
+}
+
+.non-active-link {
+  opacity: 0.3;
+}
+
 .arrow-svg {
   position: relative;
 }
@@ -1627,7 +1635,6 @@ padding: 6px 0;
   line-height: 19px;
   font-family: "Open-sans", "Arial", sans-serif;
   color: var(--basic-black);
-  opacity: 0.3;
 }
 
 .button-nav {
