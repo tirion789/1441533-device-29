@@ -52,7 +52,8 @@
     <div class="container">
       <h1 class="visually-hidden">Магазин технических товаров DEVICE</h1>
       <section class="slider-container">
-         <div class="container-slide">
+        <div class="container-slide">
+         <div class="container-slide-stick">
           <div class="img-container">
             <img src="img/slider-1.png" width="384" height="486" alt="Товар, палка для селфи">
           </div>
@@ -63,7 +64,7 @@
               Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
             <a class="more-detailed" href="index.html">Подробнее</a>
             <ul class="slide-list list-unstyled">
-              <li class="slide-item one">
+              <li class="slide-item">
                 <span class="slider-text-inside-top">8,5 м</span>
                 <span class="slider-text-inside-bottom first-text-slider">Длина палки</span>
               </li>
@@ -87,11 +88,11 @@
 правильно!</h3>
             <p class="slide-description">Мотивирующие фитнес-браслеты помогут найти в себе силы
  не пропускать занятия и соблюдать диету.</p>
-            <a class="more-detailed" href="index.html">Подробнее</a>
+            <a class="btn more-detailed" href="index.html">Подробнее</a>
             <ul class="slide-list list-unstyled">
               <li class="slide-item">
                 <span class="slider-text-inside-top">48 часов</span>
-                <span class="slider-text-inside-bottom">Без перезарядки</span>
+                <span class="slider-text-inside-bottom">Без подзарядки</span>
               </li>
             </ul>
             </div>
@@ -116,8 +117,17 @@
                 <span class="slider-text-inside-bottom">Радиус поражения</span>
               </li>
             </ul>
+           </div>
           </div>
+          <div class="slider-controls">
+            <input class="slider-input visually-hidden" id="container-slide-stick" type="radio" name="promo-control" checked>
+            <label class="slider-control" for="container-slide-stick" ></label>
+            <input class="slider-input visually-hidden" id="container-slide-clock" type="radio" name="promo-control">
+            <label class="slider-control" for="container-slide-clock"></label>
+            <input class="slider-input visually-hidden" id="container-slide-copter" type="radio" name="promo-control">
+            <label class="slider-control" for="container-slide-copter"></label>
           </div>
+         </div>
       </section>
       <section class="product">
         <ul class="product-list list-unstyled">
@@ -135,7 +145,7 @@
             </a>
           </li>
           <li class="product-item fitness"><a class="product-item-link" href="#">
-              <p>&nbsp;Фитнес-&nbsp;браслеты&nbsp;</p>
+              <p class="fitness-text">Фитнес-браслеты</p>
             </a>
           </li>
           <li class="product-item watch"><a class="product-item-link" href="#">
@@ -152,10 +162,10 @@
     <section class="services">
       <div class="services-container">
         <ul class="services-list list-unstyled">
-          <li><button type="button" class="btn btn-black delivery-btn"
+          <li><button type="button" class="btn btn-super btn-black delivery-btn"
               href="#">Доставка</li>
-          <li><button type="button" class="btn btn-black">Гарантия</li>
-          <li><button type="button" class="btn btn-black credit-btn">Кредит
+          <li><button type="button" class="btn btn-super btn-black">Гарантия</li>
+          <li><button type="button" class="btn btn-super btn-black credit-btn">Кредит
           </li>
         </ul>
         <div class="services-discription">
@@ -167,8 +177,8 @@
           </div>
           <div class="services-discription-guarantee">
             <h3 class="services-item-title">Гарантия</h3>
-            <p class="services-item-discription item-guarantee">Если из-за возгорания купленного у нас товара у вас сгорит дом
-               — не переживайте, мы выдадим вам новый. 
+            <p class="services-item-discription item-guarantee">Если из-за возгорания купленного у нас товара у вас сгорит дом —
+               не переживайте, мы выдадим вам новый. 
                Товар, не дом, конечно же</p>
           </div>  
           <div class="services-discription-credit">
@@ -178,7 +188,6 @@
                 условия кредита. Выгодные для нашего банка, разумеется</p>
           </div>
         </div>
-
       </div>
     </section>
     <div class="container">
@@ -215,7 +224,7 @@
               проверить работоспособность покупки. Всякое бывает</p>
             <a href="index.html"><img class="img-maps" src="img/map 1.png" width="560" height="222"
                 alt="Карта офиса по адресу улица Строителей, 15"></a>
-            <a class="detailed-two detailed" href="#">Напишите нам</a>
+            <button class="btn feedback" href="#">Напишите нам</button>
           </div>
         </div>
       </section>
@@ -223,40 +232,59 @@
   </main>
   <footer class="main-footer">
     <div class="container container-footer">
-      <div class="main-footer-wrapper left-footer-wrapper">
+      <div class="main-footer-wrapper">
         <div class="logo logo-footer">
           <a href="#"><img src="img/logo-device-2.png" width="163.3" height="34.96" alt="Лого сайта DEVICE"></a>
-        </div>
-        <p class="footer-contacts-address">г.Москва.ул.Строителей,15</p>
+          </div>
+          <ul class="wrapper-bottom list-unstyled">
+            <li class="wrapper-item-bottom entrance-footer"><a href="#">Войти</a></li>
+            <li class="wrapper-item-bottom compare-footer"><a href="#">Сравнить</a></li>
+            <li class="wrapper-item-bottom basket-footer"><a href="#">Корзина</a></li>
+          </ul>
       </div>
       <div class="footer-contacts">
+        <p class="footer-contacts-address">г. Москва, ул. Строителей, 15</p>
         <ul class="footer-contacts-services list-unstyled">
           <li class="footer-contact-services"><a href="#">Доставка</a></li>
-          <li class="footer-contact-services"><a href="#">Гарантии</a></li>
+          <li class="footer-contact-services"><a href="#">Гарантия</a></li>
           <li class="footer-contact-services"><a href="#">Контакты</a></li>
         </ul>
+        <a class="footer-contacts-telephone" href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
+      </div>
+      <div class="footer-information">
+        <div class="footer-ellement">
+          
+        </div>
         <ul class="footer-social-list list-unstyled">
           <li class="social-fb social-teleg"><a href="#"></a></li>
           <li class="social-instagram social-teleg"><a href="#"></a></li>
           <li class="social-twitter social-teleg"><a href="#"></a></li>
         </ul>
-      </div>
-      <div class="main-footer-wrapper right-footer-wrapper">
-        <ul class="wrapper-bottom list-unstyled">
-          <li class="wrapper-item-bottom entrance-footer"><a href="#">Войти</a></li>
-          <li class="wrapper-item-bottom compare-footer"><a href="#">Сравнить</a></li>
-          <li class="wrapper-item-bottom basket-footer"><a href="#">Корзина</a></li>
-        </ul>
-        <a class="footer-contacts-telephone" href="tel:+74954959595">Тел: +7(495) 495-95-95</a>
         <a class="social-academy" href="https://htmlacademy.ru/intensive/htmlcss"></a>
       </div>
     </div>
+  </div>
   </footer>
-  <!--<div>
-    <h2>Форма обратной связи</h2>
-    <button type="button">Отправить</button>
-    <button type="button">Закрыть</button>
-  </div>-->
+  <section class="modal-window">
+  <form class="popup-form" method="post" action="https://echo.htmlacademy.ru/">
+    <div class="text-modal">
+    <div class="popup-input-wrap popup-input-wrap-name">
+      <label for="user-name">Ваше имя:</label>
+      <input type="text" id="user-name" name="user-name" placeholder="Имя Фамилия">
+    </div>
+    <div class="popup-input-wrap popup-input-wrap-email">
+      <label for="user-mail">Ваш e-mail:</label>
+      <input type="email" id="user-mail" name="user-mail" placeholder="email@example.com">
+    </div>
+    </div>
+    <div class="popup-input-wrap popup-wrap-comments">
+      <label for="user-comment">Текст письма:</label>
+      <textarea id="user-comment" name="user-comment" placeholder="В свободной форме"></textarea>
+    </div>
+    <button class="btn btn-modal" type="submit" value="Отправить">Отправить</button>
+  </form>
+  <button class="btn-close-modal" type="button"></button>
+  </section>
 </body>
 
 </html>
