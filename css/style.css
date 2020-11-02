@@ -900,7 +900,7 @@ padding: 6px 0;
 .entrance-footer::before {
   content: "";
   position: absolute;
-  background-image: url(../img/entrance-footer.svg);
+  background-image: url(../img/entrancefooter.svg);
   width: 9px;
   height: 10px;
   right: 56px;
@@ -924,7 +924,7 @@ padding: 6px 0;
 .basket-footer::before {
   position: absolute;
   content: "";
-  background-image: url(../img/basket-footer.svg);
+  background-image: url(../img/basketfooter.svg);
   width: 10px;
   height: 10px;
   top: 5px;
@@ -947,7 +947,7 @@ padding: 6px 0;
 .compare-footer::before {
   content: "";
   position: absolute;
-  background-image: url(../img/compare-footer.svg);
+  background-image: url(../img/comparefooter.svg);
   width: 10px;
   height: 10px;
   right: 81px;
@@ -974,7 +974,7 @@ padding: 6px 0;
 .profile-name-footer::before {
   content: "";
   position: absolute;
-  background-image: url(../img/footer-profile-name.svg);
+  background-image: url(../img/footerprofilename.svg);
   width: 9px;
   height: 10px;
   background-repeat: no-repeat;
@@ -1267,33 +1267,33 @@ padding: 6px 0;
 }
 
 .virtual a::after {
-  background-image: url(../img/popular-1.svg);
+  background-image: url(../img/popular1.svg);
   background-size: 97px 55px;
 }
 
 .selfie a::after {
-  background-image: url(../img/popular-2.svg);
+  background-image: url(../img/popular2.svg);
   background-size: 86px 117px;
   padding-top: 8px
 }
 
 .camera a::after {
-  background-image: url(../img/popular-3.svg);
+  background-image: url(../img/popular3.svg);
   background-size: 71px 87px;
 }
 
 .fitness a::after {
-  background-image: url(../img/popular-4.svg);
+  background-image: url(../img/popular4.svg);
   background-size: 107px 65px;
 }
 
 .watch a::after {
-  background-image: url(../img/popular-5.svg);
+  background-image: url(../img/popular5.svg);
   background-size: 56px 98px;
 }
 
 .copter a::after {
-  background-image: url(../img/popular-6.svg);
+  background-image: url(../img/popular6.svg);
   background-size: 132px 69px;
 }
 
@@ -1365,7 +1365,7 @@ padding: 6px 0;
 .profile-name::before {
   content: "";
   position: absolute;
-  background-image: url(../img/profile-svg.svg);
+  background-image: url(../img/profilesvg.svg);
   width: 9px;
   height: 10px;
   background-position: 0 0;
@@ -1429,7 +1429,7 @@ padding: 6px 0;
 .sort::before {
   position: absolute;
   content: "";
-  background-image: url(../img/Vector-catalog.svg);
+  background-image: url(../img/vectorcatalog.svg);
   width: 11px;
   height: 11px;
   background-repeat: no-repeat;
@@ -1442,7 +1442,7 @@ padding: 6px 0;
 .sort::after {
   position: absolute;
   content: "";
-  background-image: url(../img/Vector-catalog.svg);
+  background-image: url(../img/vectorcatalog.svg);
   width: 11px;
   height: 11px;
   background-repeat: no-repeat;
@@ -1457,7 +1457,7 @@ padding: 6px 0;
 .new-before::before {
   position: absolute;
   content: "";
-  background-image: url(../img/new-svg.svg);
+  background-image: url(../img/newsvg.svg);
   width: 62px;
   height: 62px;
   left: 271px;
@@ -1753,7 +1753,7 @@ padding: 6px 0;
 .services-discription-delivery::before {
   content: "";
   position: absolute;
-  background-image: url(../img/delivery-man.svg);
+  background-image: url(../img/deliveryman.svg);
   width: 136px;
   height: 164px;
   left: 622px;
@@ -1883,7 +1883,7 @@ padding: 6px 0;
 .search-container::before {
   position: absolute;
   content: "";
-  background-image: url(../img/Vector.svg);
+  background-image: url(../img/vector.svg);
   width: 13px;
   height: 13px;
   left: 60px;
@@ -1977,7 +1977,7 @@ padding: 6px 0;
   position: absolute;
   left: -40px;
   top: -2px;
-  background-image: url(../img/radio-input.svg);
+  background-image: url(../img/radioinput.svg);
   width: 24px;
   height: 24px;
 }
@@ -1989,7 +1989,7 @@ padding: 6px 0;
   left: -32px;
   width: 8px;
   height: 8px;
-  background-image: url(../img/radio-checked.svg);
+  background-image: url(../img/radiochecked.svg);
 }
 
 .input-button {
