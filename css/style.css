@@ -1,6 +1,6 @@
 :root {
   --basic-black: #000000;
-  --basc-dark: #363636;
+  --basic-dark: #363636;
   --basic-white: #FFFFFF;
   --basic-grey: #464646;
   --basic-half-grey: #7E7E7E;
@@ -663,7 +663,7 @@ body {
 }
 
 .main-footer {
-  background-color: var(--basc-dark);
+  background-color: var(--basic-dark);
   min-height: 324px;
 }
 
@@ -1198,6 +1198,15 @@ body {
   height: 160px;
   top: 0;
   left: 0;
+}
+
+@-moz-document url-prefix() {
+  .product-item a::after {
+    top: 15px;
+  }
+  .product-item a::before {
+    top: auto;
+  }
 }
 
 .product-item a::before {
@@ -2325,5 +2334,3 @@ body {
 .fieldset legend {
   margin-top: 0;
 }
-
-
