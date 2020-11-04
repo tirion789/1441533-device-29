@@ -18,6 +18,7 @@
   --basic-black-ultra: rgba(0, 0, 0, 0.18);
   --basic-perfict-white: rgba(230,230,230,0.8);
   --basic-lower-shadows: rgba(0, 0, 0, 0.4);
+  --basic-silver-color: #C4C4C4;
 
   --special-yellow: #F7E296;
   --special-green: #91C92F;
@@ -2104,7 +2105,7 @@ border-color: transparent transparent var(--basic-black) transparent;
   height: 4px;
   padding: 0;
   border:  8px solid var(--basic-white);
-  background: #C4C4C4;
+  background: var(--basic-silver-color);
   border-radius: 50%;
   box-shadow: 0px 2px 2px var(--basic-black-ultra);
   cursor: pointer;
@@ -2235,7 +2236,7 @@ border-color: transparent transparent var(--basic-black) transparent;
   font-size: 18px;
   line-height: 22px;
   font-family: "Gilroy", "Arial", sans-serif;
-  color: #000;
+  color: var(--basic-black);
   cursor: pointer;
 }
 
@@ -2288,7 +2289,7 @@ border-color: transparent transparent var(--basic-black) transparent;
   padding: 18px 16px 20px 20px;
   resize: none;
   font-family: "Open-sans", "Arial", sans-serif;
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--basic-lower-shadows);
   background-color: var(--basic-input-color);
   height: 130px;
   border: 0;
