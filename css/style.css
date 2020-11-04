@@ -1210,36 +1210,6 @@ body {
   }
 }
 
-.btn-sort {
-  position: relative;
-  border: none;
-  background-color: transparent;
-  width: 20px;
-  height: 14px;
-  cursor: pointer;
-}
-
-.btn-sort:before {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  content: '';
-  width: 0;
-  height: 0;
-  border-style: solid;
-}
-
-.btn_increase:before {
-  border-width: 0 10px 14px 10px;
-border-color: transparent transparent var(--basic-black) transparent;
-}
-
-.btn_decrease:before {
-  border-width: 14px 10px 0 10px;
-  border-color: var(--basic-black) transparent transparent transparent;
-}
-
 .product-item a::before {
   background-color: var(--special-yellow)
 }
