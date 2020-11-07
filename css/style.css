@@ -1669,8 +1669,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   min-height: 70px;
-  max-width: 761px;
-  margin: 0 140px 78px 72px;
+  width: 761px;
+  margin: 0 0 78px 72px;
   justify-content: space-between;
   height: 71px;
 }
@@ -1758,7 +1758,6 @@ body {
   font-family: "Open-sans-light", "Arial", sans-serif;
   letter-spacing: 0.1em;
   margin: 0;
-  padding-right: 405px;
   margin-top: 40px;
   white-space: pre-line;
 }
@@ -1766,6 +1765,7 @@ body {
 .services-discription-delivery {
   display: block;
   position: relative;
+  padding-right: 265px;
 }
 
 .services-discription-delivery::before {
@@ -1786,6 +1786,7 @@ body {
 .services-discription-guarantee {
   display: none;
   position: relative;
+  padding-right: 205px;
 }
 
 .services-discription-guarantee::before {
@@ -1803,6 +1804,7 @@ body {
 .services-discription-credit {
   display: none;
   position: relative;
+  padding-right: 235px;
 }
 
 .services-discription-credit::before {
